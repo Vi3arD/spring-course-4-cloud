@@ -1,0 +1,8 @@
+rootProject.name = 'cloud'
+include 'gateway'
+include 'aggregator'
+include 'data'
+include 'producer'
+include 'consumer'
+include 'users'
+include 'tests'

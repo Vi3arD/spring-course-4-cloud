@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+  application:
+    name: users
+  datasource:
+    url: ${JDBC_URL:jdbc:postgresql://localhost:5433/db?user=app&password=pass}
+  jpa:
+    open-in-view: false
+server:
+  port: 0
